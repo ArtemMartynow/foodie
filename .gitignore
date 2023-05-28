@@ -2,3 +2,10 @@
 *.css.map
 *.sass.map
 *.scss.map
+
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
