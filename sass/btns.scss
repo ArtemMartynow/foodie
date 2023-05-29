@@ -1,0 +1,63 @@
+.btn {
+    width: 325px;
+    height: 67px;
+    background: #EB4D55;
+    font-size: 25px;
+    border-radius: 40px;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-family: system-ui;
+    border: 2px solid #EB4D55;
+    padding: 0;
+    transition: all 0.2s;
+}
+
+.home-page-btn {
+    width: 325px;
+    height: 67px;
+    background: #fff;
+    font-size: 25px;
+    border-radius: 40px;
+    color: #E8565E;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-family: system-ui;
+    border: 2px solid #fff;
+    padding: 0;
+    transition: all 0.2s;
+}
+
+.input-btn {
+    width: 224px;
+    height: 69px;
+    background: #EB4D55;
+    font-size: 25px;
+    border-radius: 40px;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-family: system-ui;
+    font-weight: 600;
+    border: 2px solid #EB4D55;
+    padding: 0;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #EB4D55;
+}
+
+.input-btn:hover {
+    background: #EB4D55;
+    color: #fff;
+}
+
+.input-btn:hover {
+    background: #fff;
+    color: #EB4D55;
+}
