@@ -15,6 +15,10 @@
   -o-transition: all 0.2s;
   transition: all 0.2s;
 }
+.btn:hover {
+  background: none;
+  color: #EB4D55;
+}
 
 .home-page-btn {
   width: 325px;
@@ -32,6 +36,10 @@
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
+}
+.home-page-btn:hover {
+  background: none;
+  color: #fff;
 }
 
 .input-btn {
@@ -52,18 +60,7 @@
   -o-transition: all 0.2s;
   transition: all 0.2s;
 }
-
-.btn:hover {
-  background: #fff;
-  color: #EB4D55;
-}
-
 .input-btn:hover {
-  background: #EB4D55;
-  color: #fff;
-}
-
-.input-btn:hover {
-  background: #fff;
+  background: none;
   color: #EB4D55;
 }
