@@ -5,3 +5,36 @@ h1, h2, h3, h4, h5 {
 body {
   margin: 0;
 }
+
+header {
+  background: none;
+  text-align: center;
+  position: absolute;
+  top: 57px;
+  left: calc(50% - 276px);
+}
+header nav {
+  width: 553px;
+  height: 19px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 25px;
+  font-family: system-ui;
+  margin-top: 40px;
+}
+header nav a {
+  color: #fff;
+  line-height: 16px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+header nav a:hover {
+  text-shadow: 1px 1px 20px white, 0 0 25px white, 0 0 9px white;
+}
