@@ -48,7 +48,8 @@ header nav a:hover {
 }
 
 .home-page {
-  background: url(../images/Image.png);
+  background: url(../images/Image.png), no-repeat;
+  background-size: cover;
   text-align: center;
   padding: 282px 377px 103px 347px;
 }
