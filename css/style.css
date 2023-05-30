@@ -1,5 +1,13 @@
 h1, h2, h3, h4, h5 {
   font-family: "Pacifico", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: system-ui;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -37,4 +45,31 @@ header nav a {
 }
 header nav a:hover {
   text-shadow: 1px 1px 20px white, 0 0 25px white, 0 0 9px white;
+}
+
+.home-page {
+  background: url(../images/Image.png);
+  text-align: center;
+  padding: 282px 377px 103px 347px;
+}
+.home-page h1 {
+  font-weight: 100;
+  font-size: 193px;
+  line-height: 201px;
+  width: 718px;
+  height: 189px;
+  color: #fff;
+  margin: 0 auto;
+}
+.home-page p {
+  font-size: 31px;
+  color: #fff;
+  width: 712px;
+  height: 58px;
+  text-align: center;
+  font-weight: 100;
+  line-height: 30px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 47px;
 }
