@@ -127,3 +127,59 @@ header nav a:hover {
   height: 51px;
   line-height: 24px;
 }
+
+.our-statistic {
+  background: url(../images/Image\(1\).png);
+  background-size: cover;
+  padding: 161px 0 160px 0;
+}
+.our-statistic h2 {
+  color: #fff;
+  font-size: 95px;
+  width: 552px;
+  height: 96px;
+  line-height: 93px;
+  margin: 0 auto;
+}
+.our-statistic p {
+  font-size: 29px;
+  color: #fff;
+  width: 757px;
+  height: 58px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 55px;
+}
+.our-statistic .our-statistic-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 114px;
+  width: 1216px;
+  margin: 0 auto;
+}
+.our-statistic .our-statistic-content .statistical-circle {
+  width: 322px;
+  height: 322px;
+  border: 5px solid #fff;
+  border-style: dashed;
+  border-radius: 171px;
+}
+.our-statistic .our-statistic-content .statistical-circle h3 {
+  font-family: cursive;
+  height: 50px;
+  font-size: 62px;
+  line-height: 49px;
+  text-align: center;
+  color: #fff;
+  margin-top: 109px;
+}
+.our-statistic .our-statistic-content .statistical-circle p {
+  width: 332px;
+  font-size: 49px;
+  padding-top: 35px;
+}

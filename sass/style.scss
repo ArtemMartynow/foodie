@@ -117,3 +117,55 @@ header {
         }
     }
 }
+
+.our-statistic {
+    background: url(../images/Image\(1\).png);
+    background-size: cover;
+    padding: 161px 0 160px 0;
+    h2 {
+        color: #fff;
+        font-size: 95px;
+        width: 552px;
+        height: 96px;
+        line-height: 93px;
+        margin: 0 auto;
+    }
+    p {
+        font-size: 29px;
+        color: #fff;
+        width: 757px;
+        height: 58px;
+        line-height: 30px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 55px;
+    }
+    .our-statistic-content {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 114px;
+        width: 1216px;
+        margin: 0 auto;
+        .statistical-circle {
+            width: 322px;
+            height: 322px;
+            border: 5px solid #fff;
+            border-style: dashed;
+            border-radius: 171px;
+            h3 {
+                font-family: cursive;
+                height: 50px;
+                font-size: 62px;
+                line-height: 49px;
+                text-align: center;
+                color: #fff;
+                margin-top: 109px;
+            }
+            p {
+                width: 332px;
+                font-size: 49px;
+                padding-top: 35px;
+            }
+        }
+    }
+}
