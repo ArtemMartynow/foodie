@@ -183,3 +183,67 @@ header nav a:hover {
   font-size: 49px;
   padding-top: 35px;
 }
+
+.our-menu {
+  background: #EEE6CC;
+  background-size: cover;
+  padding: 88px 104px 170px 130px;
+}
+.our-menu h2 {
+  color: #E8565E;
+  font-size: 99px;
+  width: 463px;
+  height: 95px;
+  line-height: 92px;
+  margin: 0 auto;
+}
+.our-menu p {
+  font-size: 29px;
+  color: #3D3D3D;
+  width: 712px;
+  height: 58px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 56px;
+}
+.our-menu .our-menu-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 415px;
+  margin-top: 94px;
+}
+.our-menu .our-menu-content .dish {
+  width: 532px;
+  height: 161px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.our-menu .our-menu-content .dish img {
+  width: 99px;
+  height: 97px;
+}
+.our-menu .our-menu-content .dish .dish-text h3 {
+  height: 37px;
+  font-size: 36px;
+  line-height: 36px;
+  color: #EB4D55;
+}
+.our-menu .our-menu-content .dish .dish-text p {
+  width: 386px;
+  height: 101px;
+  font-size: 21px;
+  text-align: left;
+  line-height: 25px;
+  padding-top: 23px;
+}

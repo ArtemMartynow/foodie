@@ -169,3 +169,60 @@ header {
         }
     }
 }
+
+.our-menu {
+    background: #EEE6CC;
+    background-size: cover;
+    padding: 88px 104px 170px 130px;
+    h2 {
+        color: #E8565E;
+        font-size: 99px;
+        width: 463px;
+        height: 95px;
+        line-height: 92px;
+        margin: 0 auto;
+    }
+    p {
+        font-size: 29px;
+        color: #3D3D3D;
+        width: 712px;
+        height: 58px;
+        line-height: 30px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 56px;
+    }
+    .our-menu-content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 415px;
+        margin-top: 94px;
+        .dish {
+            width: 532px;
+            height: 161px;
+            display: flex;
+            justify-content: space-between;
+            img {
+                width: 99px;
+                height: 97px;
+            }
+            .dish-text {
+                h3 {
+                    height: 37px;
+                    font-size: 36px;
+                    line-height: 36px;
+                    color: #EB4D55;
+                }
+                p {
+                    width: 386px;
+                    height: 101px;
+                    font-size: 21px;
+                    text-align: left;
+                    line-height: 25px;
+                    padding-top: 23px;
+                }
+            }
+        }
+    }
+}
