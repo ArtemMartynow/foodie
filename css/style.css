@@ -247,3 +247,33 @@ header nav a:hover {
   line-height: 25px;
   padding-top: 23px;
 }
+
+.delicious-pasta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #FAF5E4;
+}
+.delicious-pasta .delicious-pasta-content {
+  padding-top: 320px;
+  padding-right: 108px;
+}
+.delicious-pasta .delicious-pasta-content h2 {
+  color: #EB4D55;
+  width: 483px;
+  height: 76px;
+  font-size: 74px;
+  line-height: 80px;
+}
+.delicious-pasta .delicious-pasta-content p {
+  color: #3D3D3D;
+  width: 527px;
+  height: 94px;
+  font-size: 29px;
+  line-height: 32px;
+  margin-top: 56px;
+  margin-bottom: 42px;
+}
