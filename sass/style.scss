@@ -252,3 +252,87 @@ header {
         }
     }
 }
+
+.package-menu {
+    background: #EEE6CC;
+    text-align: center;
+    padding: 108px 85px 100px 132px;
+    h2 {
+        color: #EB4D55;
+        height: 113px;
+        font-size: 80px;
+        line-height: 83px;
+    }
+    p {
+        color: #3D3D3D;
+        width: 757px;
+        height: 58px;
+        font-size: 29px;
+        text-align: center;
+        line-height: 30px;
+        margin: 0 auto;
+        padding-top: 18px;
+        padding-bottom: 84px;
+    }
+    .package-menu-content {
+        display: flex;
+        justify-content: space-between;
+        .platter-card {
+            background: #FAF5E4;
+            width: 375px;
+            height: 422px;
+            border-radius: 20px;
+            text-align: center;
+            padding-top: 73px;
+            h3 {
+                color: #EB4D55;
+                font-size: 36px;
+            }
+            p {
+                width: 317px;
+                height: 48px;
+                font-size: 22px;
+                line-height: 23px;
+                margin-bottom: 30px;
+                padding: 0;
+            }
+        }
+        #first-platter-card {
+            img {
+                width: 118px;
+                height: 115px;
+            }
+            h3 {
+                height: 40px;
+                line-height: 36px;
+                margin-top: 63px;
+                margin-bottom: 32px;
+            }
+        }
+        #second-platter-card {
+            img {
+                width: 94px;
+                height: 100px;
+                margin-top: 8px;
+            }
+            h3 {
+                height: 38px;
+                line-height: 36px;
+                margin-top: 70px;
+                margin-bottom: 34px;
+            }
+        }
+        #third-platter-card {
+            img {
+                width: 103px;
+                height: 116px;
+            }
+            h3 {
+                height: 50px;
+                line-height: 36px;
+                margin-top: 62px;
+                margin-bottom: 22px;
+            }
+        }
+    }
+}

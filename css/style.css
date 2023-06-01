@@ -277,3 +277,85 @@ header nav a:hover {
   margin-top: 56px;
   margin-bottom: 42px;
 }
+
+.package-menu {
+  background: #EEE6CC;
+  text-align: center;
+  padding: 108px 85px 100px 132px;
+}
+.package-menu h2 {
+  color: #EB4D55;
+  height: 113px;
+  font-size: 80px;
+  line-height: 83px;
+}
+.package-menu p {
+  color: #3D3D3D;
+  width: 757px;
+  height: 58px;
+  font-size: 29px;
+  text-align: center;
+  line-height: 30px;
+  margin: 0 auto;
+  padding-top: 18px;
+  padding-bottom: 84px;
+}
+.package-menu .package-menu-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.package-menu .package-menu-content .platter-card {
+  background: #FAF5E4;
+  width: 375px;
+  height: 422px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 73px;
+}
+.package-menu .package-menu-content .platter-card h3 {
+  color: #EB4D55;
+  font-size: 36px;
+}
+.package-menu .package-menu-content .platter-card p {
+  width: 317px;
+  height: 48px;
+  font-size: 22px;
+  line-height: 23px;
+  margin-bottom: 30px;
+  padding: 0;
+}
+.package-menu .package-menu-content #first-platter-card img {
+  width: 118px;
+  height: 115px;
+}
+.package-menu .package-menu-content #first-platter-card h3 {
+  height: 40px;
+  line-height: 36px;
+  margin-top: 63px;
+  margin-bottom: 32px;
+}
+.package-menu .package-menu-content #second-platter-card img {
+  width: 94px;
+  height: 100px;
+  margin-top: 8px;
+}
+.package-menu .package-menu-content #second-platter-card h3 {
+  height: 38px;
+  line-height: 36px;
+  margin-top: 70px;
+  margin-bottom: 34px;
+}
+.package-menu .package-menu-content #third-platter-card img {
+  width: 103px;
+  height: 116px;
+}
+.package-menu .package-menu-content #third-platter-card h3 {
+  height: 50px;
+  line-height: 36px;
+  margin-top: 62px;
+  margin-bottom: 22px;
+}
