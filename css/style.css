@@ -467,3 +467,78 @@ header nav a:hover {
   right: 0;
   top: 0;
 }
+
+footer {
+  background: #2A2A2A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 117px 124px 136px 107px;
+}
+footer .footer-text {
+  color: #fff;
+}
+footer .footer-text h2 {
+  width: 164px;
+  height: 42px;
+  font-size: 39px;
+  line-height: 44px;
+  margin-bottom: 35px;
+}
+footer .footer-text p {
+  width: 430px;
+  height: 105px;
+  font-size: 23px;
+  line-height: 26px;
+}
+footer .footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 666px;
+  margin-top: 11px;
+}
+footer .footer-links .footer-links-block {
+  width: 189px;
+  height: 251px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+footer .footer-links .footer-links-block h3 {
+  height: 30px;
+  font-size: 28px;
+  line-height: 7px;
+  margin-bottom: 16px;
+  color: #fff;
+}
+footer .footer-links .footer-links-block a {
+  text-decoration: none;
+  font-size: 23px;
+  color: #fff;
+  width: 100%;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  font-family: math;
+}
+footer .footer-links .footer-links-block a:hover {
+  text-shadow: 1px 1px 20px white, 0 0 25px white, 0 0 9px white;
+}
+footer .footer-links .footer-links-block a img {
+  vertical-align: bottom;
+}
+footer .footer-links #social-media {
+  height: 220px;
+}
