@@ -359,3 +359,41 @@ header nav a:hover {
   margin-top: 62px;
   margin-bottom: 22px;
 }
+
+.chef {
+  position: relative;
+  height: 976px;
+}
+.chef img {
+  margin-left: 558px;
+  margin-top: 111px;
+}
+.chef p {
+  color: #3D3D3D;
+  width: 1000px;
+  height: 158px;
+  font-size: 49px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 55px;
+  padding-top: 57px;
+  padding-bottom: 67px;
+  z-index: 1;
+  position: relative;
+}
+.chef h2 {
+  width: 425px;
+  height: 98px;
+  font-size: 76px;
+  color: #EB4D55;
+  margin: 0 auto;
+  line-height: 83px;
+  z-index: 1;
+  position: relative;
+}
+.chef #chef-background {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  margin: 0;
+}
