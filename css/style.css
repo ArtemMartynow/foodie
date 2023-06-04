@@ -19,11 +19,11 @@ header {
   background: none;
   text-align: center;
   position: absolute;
-  top: 57px;
+  top: 12%;
   left: calc(50% - 276px);
+  width: 553px;
 }
 header nav {
-  width: 553px;
   height: 19px;
   margin: 0 auto;
   display: -webkit-box;
@@ -52,7 +52,7 @@ header nav a:hover {
   background: url(../images/Image.png), no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 282px 377px 103px 347px;
+  padding: 282px 24% 103px 25%;
 }
 .home-page h1 {
   font-size: 193px;
@@ -65,7 +65,7 @@ header nav a:hover {
 .home-page p {
   font-size: 31px;
   color: #fff;
-  width: 712px;
+  width: 100%;
   height: 58px;
   text-align: center;
   font-weight: 100;
@@ -78,7 +78,7 @@ header nav a:hover {
 .popular {
   background: url(../images/Image\(3\).png);
   background-size: cover;
-  padding: 90px 120px 133px 116px;
+  padding: 90px 9% 133px 9%;
 }
 .popular h2 {
   color: #E8565E;
@@ -91,7 +91,7 @@ header nav a:hover {
 .popular p {
   font-size: 29px;
   color: #333333;
-  width: 757px;
+  width: 66%;
   height: 58px;
   line-height: 30px;
   text-align: center;
@@ -102,9 +102,10 @@ header nav a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .popular .popular-content .card {
   width: 335px;
@@ -144,7 +145,7 @@ header nav a:hover {
 .our-statistic p {
   font-size: 29px;
   color: #fff;
-  width: 757px;
+  width: 53%;
   height: 58px;
   line-height: 30px;
   text-align: center;
@@ -155,11 +156,12 @@ header nav a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding-top: 114px;
-  width: 1216px;
+  width: 84%;
   margin: 0 auto;
 }
 .our-statistic .our-statistic-content .statistical-circle {
@@ -168,6 +170,7 @@ header nav a:hover {
   border: 5px solid #fff;
   border-style: dashed;
   border-radius: 171px;
+  margin-bottom: 10px;
 }
 .our-statistic .our-statistic-content .statistical-circle h3 {
   font-family: cursive;
@@ -187,7 +190,7 @@ header nav a:hover {
 .our-menu {
   background: #EEE6CC;
   background-size: cover;
-  padding: 88px 104px 170px 130px;
+  padding: 88px 3% 170px 6%;
 }
 .our-menu h2 {
   color: #E8565E;
@@ -200,7 +203,7 @@ header nav a:hover {
 .our-menu p {
   font-size: 29px;
   color: #3D3D3D;
-  width: 712px;
+  width: 59%;
   height: 58px;
   line-height: 30px;
   text-align: center;
@@ -211,9 +214,8 @@ header nav a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   height: 415px;
@@ -228,6 +230,7 @@ header nav a:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 10px;
 }
 .our-menu .our-menu-content .dish img {
   width: 99px;
@@ -257,9 +260,13 @@ header nav a:hover {
           justify-content: space-between;
   background: #FAF5E4;
 }
+.delicious-pasta img {
+  width: 48%;
+}
 .delicious-pasta .delicious-pasta-content {
   padding-top: 320px;
-  padding-right: 108px;
+  padding-right: 7%;
+  width: 37%;
 }
 .delicious-pasta .delicious-pasta-content h2 {
   color: #EB4D55;
@@ -270,7 +277,6 @@ header nav a:hover {
 }
 .delicious-pasta .delicious-pasta-content p {
   color: #3D3D3D;
-  width: 527px;
   height: 94px;
   font-size: 29px;
   line-height: 32px;
@@ -291,7 +297,7 @@ header nav a:hover {
 }
 .package-menu p {
   color: #3D3D3D;
-  width: 757px;
+  width: 64%;
   height: 58px;
   font-size: 29px;
   text-align: center;
@@ -304,9 +310,10 @@ header nav a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .package-menu .package-menu-content .platter-card {
   background: #FAF5E4;
@@ -315,6 +322,7 @@ header nav a:hover {
   border-radius: 20px;
   text-align: center;
   padding-top: 73px;
+  margin-bottom: 10px;
 }
 .package-menu .package-menu-content .platter-card h3 {
   color: #EB4D55;
@@ -365,12 +373,12 @@ header nav a:hover {
   height: 976px;
 }
 .chef img {
-  margin-left: 558px;
+  margin-left: calc(50% - 161px);
   margin-top: 111px;
 }
 .chef p {
   color: #3D3D3D;
-  width: 1000px;
+  width: 70%;
   height: 158px;
   font-size: 49px;
   margin: 0 auto;
@@ -412,7 +420,7 @@ header nav a:hover {
 }
 .subscribe p {
   color: #3D3D3D;
-  width: 757px;
+  width: 54%;
   height: 58px;
   font-size: 29px;
   line-height: 30px;
@@ -422,7 +430,7 @@ header nav a:hover {
   padding-bottom: 52px;
 }
 .subscribe .email {
-  width: 772px;
+  width: 54%;
   position: relative;
   margin: 0 auto;
 }
@@ -476,7 +484,9 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 117px 124px 136px 107px;
+  padding: 117px 9% 136px 7%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 footer .footer-text {
   color: #fff;
@@ -503,6 +513,8 @@ footer .footer-links {
           justify-content: space-between;
   width: 666px;
   margin-top: 11px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 footer .footer-links .footer-links-block {
   width: 189px;
