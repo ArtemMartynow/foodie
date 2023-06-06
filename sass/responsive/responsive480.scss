@@ -1,0 +1,211 @@
+@media(max-width:480px) {
+    
+    header {
+        width: 100%;
+        left: 0;
+        top: 5%;
+        nav {
+            width: 87%;
+            font-size: 15px;
+            margin-top: 15px;
+        }
+    }
+    .home-page {
+        padding-top: 110px;
+        h1 {
+            font-size: 80px;
+            height: auto;
+            line-height: 150px;
+        }
+        p {
+            margin-top: 0;
+            font-size: 15px;
+            line-height: 20px;
+        }
+        button {
+            width: 275px;
+        }
+    }
+    .popular {
+        padding-top: 35px;
+        padding-bottom: 90px;
+        padding-left: 0;
+        padding-right: 0;
+        h2 {
+            font-size: 72px;
+            width: auto;
+            text-align: center;
+            height: 115px;
+        }
+        p {
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+        .popular-content {
+            .card {
+                height: 350px;
+                img {
+                    width: 200px;
+                }
+                h3 {
+                    font-size: 44px;
+                }
+                p {
+                    font-size: 18px;
+                    width: auto;
+                }
+            }
+        }
+    }
+    .our-statistic {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+        h2 {
+            font-size: 72px;
+            width: auto;
+            line-height: 70px;
+        }
+        p {
+            width: auto;
+            font-size: 16px;
+        }
+        .our-statistic-content {
+            padding-top: 30px;
+            .statistical-circle {
+                width: 250px;
+                height: 250px;
+                h3 {
+                    margin-top: 65px;
+                }
+                p {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .our-menu {
+        padding: 25px 0px 120px 0px;
+        h2 {
+            font-size: 72px;
+            line-height: 70px;
+        }
+        p {
+            font-size: 16px;
+            width: auto;
+            margin-bottom: 10px;
+        }
+        .our-menu-content {
+            margin-top: 60px;
+            .dish {
+                width: 280px;
+                height: 160px;
+                .dish-text {
+                    p {
+                        width: 280px;
+                        font-size: 12px;
+                        padding-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .delicious-pasta {
+        .delicious-pasta-content {
+            h2 {
+                font-size: 72px;
+                line-height: 70px;
+            }
+            p {
+                font-size: 16px;
+                margin-bottom: 50px;
+            }
+            button {
+                width: 275px;
+            }
+        }
+    }
+    .package-menu {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        h2 {
+            font-size: 72px;
+            line-height: 70px;
+        }
+        p {
+            font-size: 16px;
+        }
+        .package-menu-content {
+            font-size: 12px;
+            margin-bottom: 20px;
+            margin: 0 auto;
+            #first-platter-card, #second-platter-card, #third-platter-card {
+                width: 280px;
+                height: 322px;
+                padding-top: 0;
+                img {
+                    width: 70px;
+                    height: 75px;
+                    padding-top: 20px;
+                    margin-top: 0;
+                }
+                h3 {
+                    font-size: 33px;
+                    margin-top: 17px;
+                    margin-bottom: 17px;
+                    height: 38px;
+                }
+                p {
+                    width: 95%;
+                    font-size: 12px;
+                    margin-bottom: 20px;
+                }
+                button {
+                    width: 250px;   
+                }
+            }
+        }
+    }
+    .chef {
+        height: 580px;
+        img {
+            width: 250px;
+            margin-left: calc(50% - 125px);
+            margin-top: 70px;
+        }
+        h2 {
+            font-size: 50px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 26px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            height: auto;
+        }
+    }
+    .subscribe {
+        padding: 70px 0 100px;
+        h2 {
+            font-size: 72px;
+        }
+        p {
+            font-size: 16px;
+            padding-top: 30px;
+            padding-bottom: 80px;
+        }
+        .email {
+            width: 250px;
+        }
+    }
+    footer {
+        padding: 80px 9% 70px 7%;
+        .footer-text {
+            p {
+                font-size: 16px;
+                width: 280px;
+            }
+        }
+    }
+
+}

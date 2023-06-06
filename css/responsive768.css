@@ -1,0 +1,112 @@
+@media (max-width: 768px) {
+  header {
+    width: 470px;
+    left: calc(50% - 239px);
+  }
+  header nav {
+    width: 430px;
+    font-size: 18px;
+  }
+  .home-page {
+    padding-top: 190px;
+  }
+  .home-page h1 {
+    font-size: 120px;
+  }
+  .home-page p {
+    font-size: 21px;
+  }
+  .popular h2 {
+    width: 276px;
+    font-size: 80px;
+  }
+  .popular p {
+    margin-bottom: 100px;
+    font-size: 21px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .our-statistic h2 {
+    width: 456px;
+    font-size: 80px;
+  }
+  .our-statistic p {
+    margin-bottom: 50px;
+    font-size: 21px;
+  }
+  .our-menu h2 {
+    font-size: 80px;
+    width: 100%;
+    text-align: center;
+  }
+  .our-menu p {
+    width: 85%;
+    margin-bottom: 130px;
+    font-size: 21px;
+  }
+  .our-menu .dish img {
+    display: none;
+  }
+  .delicious-pasta {
+    text-align: center;
+  }
+  .delicious-pasta img {
+    display: none;
+  }
+  .delicious-pasta .delicious-pasta-content {
+    width: 100%;
+    padding-right: 0;
+    padding-top: 40px;
+  }
+  .delicious-pasta .delicious-pasta-content h2 {
+    width: 100%;
+    font-size: 80px;
+  }
+  .delicious-pasta .delicious-pasta-content p {
+    font-size: 21px;
+  }
+  .package-menu {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .package-menu h2 {
+    height: auto;
+  }
+  .package-menu p {
+    font-size: 21px;
+    padding-top: 40px;
+  }
+  .chef p {
+    font-size: 35px;
+    padding-bottom: 170px;
+  }
+  .chef h2 {
+    font-size: 65px;
+    width: auto;
+    text-align: center;
+  }
+  .subscribe h2 {
+    font-size: 80px;
+    width: auto;
+    text-align: center;
+  }
+  .subscribe p {
+    font-size: 21px;
+    width: 81%;
+  }
+  .subscribe .email input {
+    width: 90%;
+    padding-right: 5%;
+    margin-bottom: 10px;
+  }
+  .subscribe .email button {
+    position: relative;
+    width: 100%;
+  }
+  footer .footer-text p {
+    width: 400px;
+  }
+  footer .footer-links .footer-links-block {
+    margin-bottom: 20px;
+  }
+}

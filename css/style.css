@@ -490,6 +490,7 @@ footer {
 }
 footer .footer-text {
   color: #fff;
+  margin-bottom: 50px;
 }
 footer .footer-text h2 {
   width: 164px;

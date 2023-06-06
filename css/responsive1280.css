@@ -1,0 +1,35 @@
+@media (max-width: 1280px) {
+  .home-page {
+    padding: 282px 0 103px 0;
+  }
+  .home-page h1 {
+    width: 100%;
+  }
+  .delicious-pasta .delicious-pasta-content {
+    padding-top: 250px;
+    padding-bottom: 40px;
+  }
+  .delicious-pasta .delicious-pasta-content p {
+    margin-bottom: 115px;
+  }
+  .package-menu p {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 1186px) {
+  .our-menu .our-menu-content {
+    margin-bottom: 136px;
+  }
+  .delicious-pasta .delicious-pasta-content {
+    padding-top: 140px;
+  }
+  .delicious-pasta .delicious-pasta-content h2 {
+    width: 200px;
+  }
+  .delicious-pasta .delicious-pasta-content p {
+    margin-top: 100px;
+  }
+  .chef p {
+    padding-bottom: 135px;
+  }
+}
